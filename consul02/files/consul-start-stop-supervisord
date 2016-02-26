@@ -1,0 +1,6 @@
+[program:consul]
+command=consul agent -config-file=/opt/consul/config.json
+numprocs=1
+autostart=true
+autorestart=true
+stopsignal=INT
